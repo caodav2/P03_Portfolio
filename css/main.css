@@ -270,10 +270,14 @@ section code {
 }
 
 .about {
+  font-family: 'Overpass';
+  width: 60%;
   color: white;
   background-color: black;
-  padding: 2em;
-  margin-top: 0em;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
 }
 
 .text_box {
