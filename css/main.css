@@ -1,0 +1,393 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+body {
+  font-family: sans-serif;
+  padding: 0rem;
+  margin: 1em;
+}
+
+.name_image {
+  width: 100%;
+  height: 100%;
+  filter: grayscale();
+}
+
+h1 {
+  font-family: 'Abel', sans-serif;
+}
+
+/* section h3 {
+  margin-bottom: 0;
+} */
+p {
+  font-family: 'Overpass', sans-serif;
+}
+
+/****************************
+*
+*   Navigations
+*
+*****************************/
+nav {
+  /* margin:1em; */
+  width: 100%;
+  /* margin-bottom: 1em; */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+/* Main Menu Nav */
+nav.main_menu {
+  display: flex;
+}
+
+nav.main_menu ul {
+  width: 100%;
+}
+
+nav.main_menu li {
+  width: 25%;
+}
+
+nav.main_menu a {
+  width: 100%;
+  padding: 15px 0px;
+}
+
+.main_menu .top_menu {
+  background-color: black;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+}
+
+.main_menu .top_menu:hover {
+  background-color: grey;
+  color: black;
+  -webkit-transition: background-color 1.0s ease-out;
+  transition: background-color 1.0s ease-out;
+}
+
+.main_menu .top_menu:focus {
+  background-color: rgb(40, 40, 40);
+  color: white;
+  font-weight: bold;
+}
+
+/* Nav_bar nav */
+nav.nav_bar {
+  display: flex;
+  padding-top: 1rem;
+}
+
+nav.nav_bar ul {
+  width: 100%;
+}
+
+nav.nav_bar li {
+  width: 16.66%;
+}
+
+nav.nav_bar a {
+  width: 100%;
+  padding: 15px 0px;
+}
+
+.nav_bar .top_menu {
+  background-color: rgb(90, 90, 90);
+  /* Green */
+  border: none;
+  color: white;
+  /* padding: 10px 28px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+}
+
+.nav_bar .top_menu:hover {
+  background-color: grey;
+  color: black;
+  -webkit-transition: background-color 1.0s ease-out;
+  transition: background-color 1.0s ease-out;
+}
+
+.nav_bar .top_menu:focus {
+  background-color: rgb(40, 40, 40);
+  color: white;
+  font-weight: bold;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  /* padding: 0.5em 0; */
+  /* border-top: 1px solid #333; */
+}
+
+a {
+  margin: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+}
+
+.title_img img {
+  position: relative;
+  height: 65vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+.menu .btn {
+  font-family: 'Abel', sans-serif;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgb(50, 50, 50);
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  padding: 20px 35px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.menu .btn:hover {
+  background-color: rgb(80, 83, 82);
+}
+
+.menu .btn:focus {
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+
+.menu {
+  display: flex;
+}
+
+.title_img {
+  position: relative;
+  text-align: center;
+  width: 25%;
+}
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #333;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.8s ease-out;
+  transition: background-color 0.8s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #999;
+}
+
+/* general links */
+/*
+  TEXT ELEMENTS -------------------
+*/
+.ship_info {
+  font-weight: bold;
+}
+
+.company_title {
+  font-weight: bold;
+}
+
+.item_des {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.description {
+  font-size: 14px;
+  font-family: 'Abel'
+}
+
+.top_title {
+  font-family: 'Overpass';
+  font-size: 60px;
+  color: white;
+  background: rgb(30, 30, 33);
+  margin: 0;
+  text-align: center;
+}
+
+.about {
+  color: white;
+  background-color: black;
+  padding: 2em;
+  margin-top: 0em;
+}
+
+.text_box {
+  border: 0.1em solid black;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  width: 33.33%;
+  outline-width: 0.1em;
+  clear: both;
+  background-color: rgb(230, 230, 230);
+  display: block
+}
+
+.text_box:focus {
+  border: 0.1em solid grey;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  width: 25%;
+  outline-width: 0em;
+  background-color: white;
+  border-color: black;
+}
+
+.text_box:hover {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.button {
+  color: grey;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  margin-top: 1.0rem;
+  margin-bottom: 1.0rem;
+}
+
+.button:focus {
+  color: black;
+  background-color: rgb(70, 70, 70);
+  border-radius: 0.5rem;
+  outline-width: 0em;
+}
+
+.button:hover {
+  font-weight: bold;
+  background-color: rgb(180, 180, 180);
+}
+
+.comp_links {
+  background-color: black;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+}
+
+.comp_links:hover {
+  background-color: grey;
+  color: rgb(200, 200, 200);
+  -webkit-transition: background-color 1.0s ease-out;
+  transition: background-color 1.0s ease-out;
+}
+
+.comp_links:focus {
+  background-color: rgb(70, 70, 70);
+  color: white;
+  font-weight: bold;
+}
+
+section#product_listing {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.product {
+  width: 33.33%;
+}
+
+.product_image, .product_title, .product_price {
+  text-align: center;
+}
+
+.product_description {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.total_amount {
+  font-weight: bold;
+  text-align: right;
+  font-size: 24px;
+  margin: 0.5em;
+}
+
+section#cart {
+  border: 1px black solid;
+  width: 325px;
+  padding: 1rem;
+  position: fixed;
+  right: 10px;
+  border-width: medium;
+}
+
+div.cart_product {
+  display: flex;
+}
+
+div.cart_product_info {
+  padding-left: 2rem;
+}
+
+.block {
+  display: block;
+}
+
+section#payment_form {
+  padding-left: 1rem;
+}
+
+/*
+  COMBINED ELEMENTS -------------------
+*/

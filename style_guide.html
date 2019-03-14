@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>J4Sale - P01 Style Guide Template</title>
+
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <h1 class="top_title"> J4Sale </h1>
+
+  <nav class="main_menu">
+    <ul>
+      <li class="top"> <a class="top_menu" href="home.html">Home</a></li>
+      <li class="top"> <a class="top_menu" href="product.html">Products</a></li>
+      <li class="top"> <a class="top_menu" href="style_guide.html">Style Guide</a></li>
+      <li class="top"> <a class="top_menu" href="cart.html">Cart</a></li>
+    </ul>
+  </nav>
+
+  <nav class="nav_bar">
+    <ul>
+      <li class="top"> <a class="top_menu" href="#interactive_elements">Interactive Elements</a></li>
+      <li class="top"> <a class="top_menu" href="#text_elements">Text Elements</a></li>
+      <li class="top"> <a class="top_menu" href="#combined_elements">Combined Elements</a></li>
+      <li class="top"> <a class="top_menu" href="#Company_Info">Company Info</a></li>
+      <li class="top"> <a class="top_menu" href="#product_list">Product Listing</a> </li>
+      <li class="top"> <a class="top_menu" href="#cart">Cart</a> </li>
+    </ul>
+
+  </nav>
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+    <h2>Interactive Elements</h2>
+
+    <!-- Default Button styling section -->
+    <section>
+
+      <h2>Navigation Button</h2>
+
+      <h3>CSS selector:</h3>
+      <p>.button-nav</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+      <h3>Rendered element:</h3>
+      <a class="button" href="#">Default Button</a>
+
+    </section>
+
+    <section>
+      <h2>In-text link</h2>
+    </section>
+
+    <h3>CSS selector:</h3>
+    <p>.button</p>
+
+    <h3>Sample code:</h3>
+    <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+    <h3>Rendered element:</h3>
+
+    To find more athletic gear visit <a href="https://www.dickssportinggoods.com/products/workout-clothes.jsp">
+      Sporting Goods</a>. The collection ranges from casual outerwear to high level athletic clothing.
+
+
+
+    <section>
+      <h2>Submit/Reset Buttons</h2>
+
+      <h3>CSS selector:</h3>
+      <p>button</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;button type="button"&gt;Reset Fields&lt;/a&gt;</code>
+      <code>&lt;button type="button""&gt;Submit&lt;/a&gt;</code>
+
+      <h3>Rendered element:</h3>
+
+      <button type="button">Submit</button>
+      <button type="button">Reset Fields</button>
+      <!-- can also use input type="submit" value =""Submit" -->
+    </section>
+
+    <section>
+      <h2>Text Input Field</h2>
+
+      <h3>CSS selector:</h3>
+      <p>.text_input</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;Customer Last Name: input type="text" name="last_name" class="text_input""&gt;</code>
+      <code>&lt;Customer First Name: input type="text" name="first_name" class="text_input""&gt;</code>
+
+      <h3>Rendered element:</h3>
+
+      <!-- referenced https://www.w3schools.com/tags/tag_input.asp -->
+
+      Customer First Name: <input type="text" name="first_name" class="text_input">
+      Customer Last Number: <input type="text" name="last_name" class="text_input">
+
+      <!--  <input type="submit" value="Submit"> did not need for this sub -->
+    </section>
+
+
+    <h2> Radio Buttons for Sizing</h2>
+
+    <section>
+      <h3>CSS selector:</h3>
+      <p>radio_button</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt; type="radio" name="size" value="XS" checked class="radio_button"> XS</code>
+
+
+      <h3>Rendered element:</h3>
+
+      <input type="radio" name="size" value="XS" checked class="radio_button"> XS
+      <input type="radio" name="size" value="S" class="radio_button"> S
+      <input type="radio" name="size" value="M" class="radio_button"> M
+      <input type="radio" name="size" value="L" class="radio_button"> L
+
+
+    </section>
+
+    <section>
+      <h2>Image as a link</h2>
+
+      <h3>CSS selector:</h3>
+      <p>img</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;a href="https://rocketsshop.com/products/james-harden-icon-swingman-jersey"&gt; </code>
+      <code>&lt;img src="img/harden_jersey.jpg" alt="Harden13" width="360" height="360"&gt;</code>
+
+
+      <h3>Rendered element:</h3>
+
+
+      <a href="https://rocketsshop.com/products/james-harden-icon-swingman-jersey">
+        <!-- image retrieved from https://rocketsshop.com/products/james-harden-icon-swingman-jersey -->
+        <img src="img/harden_jersey.jpg" alt="Harden13" width="360" height="360">
+      </a>
+    </section>
+
+  </section>
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <section id="text_elements">
+    <h2>Text Elements</h2>
+
+    <h3>CSS selector:</h3>
+    <p>heading</p>
+
+    <h3>Sample code:</h3>
+    <code>&lt; Heading 2&gt; </code>
+    <code>&lt; Heading 3&gt;</code>
+
+
+    <h3>Rendered element:</h3>
+
+    <section>
+      <h2>Headings</h2>
+
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+
+
+    </section>
+
+    <section>
+      <h2>Paragraphs</h2>
+
+
+      <h3>CSS selector:</h3>
+      <p>p</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;p&gt; A crafty and agile two-way forward, Pettersson is consistently productive in all three zones.
+        As he gets stronger, he'll become even more physical and aggressive than he is now, and
+        his creativity could definitely elevate his game to dominant levels. He can be described
+        as a tenacious, jack-of-all-trades kind of player; he is well versed in all the important
+        aspects of his own game. His speed and top-end acceleration continue to improve game by
+        game, and his hard-nosedness shows through in his dogged pursuit of puck control.
+        Elias Pettersson is a complete hockey player with exceptional hockey sense
+        who brings intellect and youthful exuberance to a game that feeds on his kind of
+        exciting athleticism. [EP 2017] &lt;/p&gt; </code>
+
+
+
+      <h3>Rendered element:</h3>
+
+
+      <p class="serif">
+        <!-- information retrieved from https://www.eliteprospects.com/player/266336/elias-pettersson -->
+        A crafty and agile two-way forward, Pettersson is consistently productive in all three zones.
+        As he gets stronger, he'll become even more physical and aggressive than he is now, and
+        his creativity could definitely elevate his game to dominant levels. He can be described
+        as a tenacious, jack-of-all-trades kind of player; he is well versed in all the important
+        aspects of his own game. His speed and top-end acceleration continue to improve game by
+        game, and his hard-nosedness shows through in his dogged pursuit of puck control.
+        Elias Pettersson is a complete hockey player with exceptional hockey sense
+        who brings intellect and youthful exuberance to a game that feeds on his kind of
+        exciting athleticism. [EP 2017]
+      </p>
+
+    </section>
+
+    <section>
+      <h2>Bulleted Lists</h2>
+      <!-- referenced https://www.w3schools.com/html/html_lists.asp -->
+
+      <h3>CSS selector:</h3>
+      <p>p</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;ul style="list-style-type:square" &gt; </code>
+
+
+
+      <h3>Rendered element:</h3>
+
+      <ul style="list-style-type:square">
+        <li> Hockey </li>
+        <li> Basketball </li>
+        <li> Soccer </li>
+        <li> Football </li>
+      </ul>
+
+      <ol>
+        <li> Hockey </li>
+        <li> Basketball </li>
+        <li> Soccer </li>
+        <li> Football </li>
+      </ol>
+
+    </section>
+
+    <section>
+      <h2>Numbered Lists</h2>
+    </section>
+
+  </section>
+  <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+  <!-- COMBINED ELEMENTS SECTION // -->
+  <section id="combined_elements">
+    <h2>Combined Elements </h2>
+
+    <section>
+      <h3>Main Navigation</h3>
+      <nav>
+        <ul>
+          <li class="second"> <a class="comp_links" href="#Company_Info">Company Info</a></li>
+          <li class="second"> <a class="comp_links" href="#product_list">Products</a> </li>
+          <li class="second"> <a class="comp_links" href="#cart">Cart</a></li>
+          <li class="second"> <a class="comp_links" href="#payment_form">Payment</a></li>
+
+        </ul>
+      </nav>
+    </section>
+  </section>
+
+  <section id="product_list">
+    <h3>Product Listing</h3>
+
+    <a href="https://rocketsshop.com/products/james-harden-icon-swingman-jersey">
+      <!-- image retrieved from https://rocketsshop.com/products/james-harden-icon-swingman-jersey -->
+      <img src="img/harden_jersey.jpg" alt="Harden13" width="360" height="360">
+    </a>
+    <p>
+      James Harden Home Jersey
+
+      $109.99 CAD
+
+    </p>
+
+    <div class="item_des">Item Description: </div>
+
+    <div class="description">This James Harden Home Jersey is made entirely from synthetic fibers.
+      Support your Houston Rockets by purchasing this jersey! </div>
+
+
+  </section>
+
+  <section id="cart">
+    <h3>Cart</h3>
+
+
+    <p>
+      Your Cart:
+
+
+      <a href="#jh13">James Harden Home Jersey</a>
+      <a href="https://rocketsshop.com/products/james-harden-icon-swingman-jersey">
+        <!-- image retrieved from https://rocketsshop.com/products/james-harden-icon-swingman-jersey -->
+        <img src="img/harden_jersey.jpg" alt="Harden13" width="80" height="80">
+        109.99
+      </a>
+
+
+      <a href="#cp3">Chris Paul Home Jersey</a>
+      <a href="https://rocketsshop.com/products/chris-paul-icon-edition-swingman-mens-jersey-by-nike">
+        <!-- image retrieved from https://rocketsshop.com/products/chris-paul-icon-edition-swingman-mens-jersey-by-nike -->
+        <img src="img/cp3_jersey.jpg" alt="CP3" width="80" height="80">
+
+        109.99
+      </a>
+
+      Total: $ XXX.XX
+
+      <input type="submit" value="Proceed">
+    </p>
+
+
+
+  </section>
+
+  <section id="payment_form">
+    <h3> Payment </h3>
+
+    <p>
+      <b>Shipping Option:</b>
+      <input type="radio" name="shipping" value="express"> Express (2 business days)
+      <input type="radio" name="shipping" value="standard"> Standard (10 business days)
+
+
+      <h2> <a class="ship_info">Customer Information:</a></h2>
+
+      <label for="Form-type"> First Name: </label>
+      <input class="text_box" type="text" id="Form-type" placeholder="ex. Elias ">
+
+
+      <label for="Form-type"> Last Name: </label>
+      <input class="text_box" type="text" placeholder="ex. Pettersson ">
+
+
+      <label for="Form-type"> Email: </label>
+      <input class="text_box" type="text" placeholder="ex. elias@hotmail.com ">
+
+
+      <label for="Form-type"> Phone Number: </label>
+      <input class="text_box" type="text" placeholder="ex. 6049999999 ">
+
+
+      <b>Billing Address:</b>
+
+      <label for="Form-type"> Street Address: </label>
+      <input class="text_box" type="text" placeholder="ex. 111 Univeristy Dr ">
+
+
+      <label for="Form-type"> City: </label>
+      <input class="text_box" type="text" placeholder="ex. Vancouver ">
+
+      <label for="Form-type"> Province: </label>
+      <input class="text_box" type="text" placeholder="ex. B.C">
+
+
+
+      <b>Payment Options:</b>
+      <label for="Form-type"> Credit Card Number: </label>
+      <input class="text_box" type="text" placeholder="ex. 4510 xxxx xxxx xxxx ">
+
+      <label for="Form-type"> Name on Card: </label>
+      <input class="text_box" type="text" placeholder="ex. Elias Pettersson ">
+
+      <label for="Form-type"> Expiration Date: </label>
+      <input class="text_box" type="text" placeholder="ex. mm/dd/yyyy ">
+
+      <label for="Form-type"> CVC: </label>
+      <input class="text_box" type="text" placeholder="ex. 323 ">
+
+      <input class="button" type="submit" value="Order">
+
+
+  </section>
+
+
+  <section id="Company_Info">
+    <h2> Company Information</h2>
+
+    <p>
+
+      J4Sale is an online based jersey selling company that looks to satisfy all sport fanatics.
+      At J4Sale we strive to offer our customers <b>variety</b> and <b>flexibility</b>. Our approach is to supply all
+      majory league jerseys and offer customizations for our valued customers. J4Sale is a one pit stop for
+      all fanatics that are looking to support their team. Our company only carries jerseys that are authentic
+      and certified by the brand producers. At J4Sale we value our customer's feedback, to support this we offer an
+      online chatting platform for sizing, prices, customizations and any other questions.J4Sale provides customer
+      satisfaction by implementing a 90 day satisfaction guaranteed policy.
+
+    </p>
+
+  </section>
+
+  <section>
+    <h2> Fonts </h2>
+
+    <img src="img/barlow_font.jpg" alt="din" width="380" height="380">
+    <!--retrieved from https://www.ahadesign.eu/9-news/1939-vier-kostenlose-neue-schriftarten-fuer-die-kommerzielle-nutzung.html -->
+
+    <img src="img/overpass_font.png" alt="din" width="380" height="380">
+    <!--retrieved from https://www.canva.com/learn/best-free-fonts/ -->
+
+    <img src="img/abel_font_r.png" alt="gotham" width="370" height="370">
+    <!-- retrieved from https://www.fontsquirrel.com/fonts/abel -->
+
+  </section>
+
+  <section>
+    <h2> Colour Palette</h2>
+    <img src="img/color_pal.jpg" alt="palette" width="480" height="300">
+    <p>
+      J4Sale's color palette ranges from the spectrum of Black to White.
+      As a company that distributes jerseys, we wanted our color choice to be
+      clean and crisp just like the jerseys we sell. Furthermore, by not
+      incorporating colors we want to shout a message to fans that we support
+      all teams and players.
+    </p>
+
+
+  </section>
+
+  <section>
+    <h2> Images </h2>
+    <img src="img/ice.jpg" alt="ice" width="480" height="300">
+    <img src="img/bball_court.jpg" alt="court" width="480" height="300">
+
+  </section>
+
+
+
+  <section>
+    <h2> Citations </h2>
+
+
+    <ul style="list-style-type:square">
+
+      <li>Alex_Po. “Scratched Surface of Ice Rink Stock Footage Video (100% Royalty-Free) 8266489.
+        ” City Of Forks City Limit Sign - FORKS / WASHINGTON. APRIL 13, 2017 Stock Footage Video 28374238
+        | Shutterstock, The Shutterstock Blog, www.shutterstock.com/video/clip-8266489
+        -scratched-surface-ice-rink.</li>
+
+      <li> Bodoni™ Complete Family Pack, www.type.co.uk/a_to_z/id/35258. </li>
+
+      <li> Fei. “Black And White On The Basketball Court by Gary Slawsky.”
+        Fine Art America, fineartamerica.com/featured/black-and-white-
+        on-the-basketball-court-gary-slawsky.html.</li>
+
+      <li>Free Fonts! Legit Free & Quality » Font Squirrel. (n.d.). Retrieved January 24, 2019, from https://www.fontsquirrel.com/</li>
+
+      <li> “From Black to White Color Palette.” Color Hex, www.color-hex.com/color-palette/37706. </li>
+
+      <li> “HTML.” Browser Statistics, www.w3schools.com/. </li>
+
+      <li>Lebron james icon edition swingman jersey (los angeles lakers)'nba connected jersey'. (n.d.). Retrieved January 24, 2019, from
+        https://bouncewear.com/en/product/lebron-james-icon-edition-swingman-jersey-los-angeles-lakers-mens-nike-nba-connected-jersey </li>
+
+      <li> “Men's Houston Rockets Nike James Harden Icon Edition Swingman Jersey.” Rocketsshop, rocketsshop
+        .com/products/james-harden-icon-swingman-jersey. </li>
+
+      <li> “Men's Houston Rockets Nike Chris Paul Icon Edition Swingman Jersey.”Rocketsshop, rocketsshop
+        .com/products/chris-paul-icon-edition-swingman-mens-jersey-by-nike. </li>
+
+      <li>NFLShop Canada Gear, 2019 NFL Nike Gear, NFL Apparel & NFL Merchandise | NFLShop.ca. (n.d.). Retrieved January 24, 2019, from http://www.nflshop.ca/</li>
+
+      <li>NHL Jerseys, Apparel & Gear at The Official Online Store of the NHL | NHLShop.ca. (n.d.). Retrieved January 24, 2019, from http://www.nhlshop.ca/</li>
+
+      <li> Reebok Pittsburgh Penguins 87 Men's Sidney Crosby Authentic Black/Gold Third Jersey S,M,L,XL,XXL,XXXL,XXXXL. (n.d.). Retrieved January 24, 2019, from
+        http://www.pittsburghpenguinsprostore.com/800-reebok-pittsburgh-penguins-87-men-s-sidney-crosby-authentic-black-gold-third-jersey.html</li>
+
+      <li> “Typography.” University Logo | University of Iowa Brand Manual, brand.uiowa.edu/typography.</li>
+
+    </ul>
+
+  </section>
+  <!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+</body>
+
+</html>
