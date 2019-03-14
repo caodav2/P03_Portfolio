@@ -192,7 +192,7 @@ a {
 }
 
 section code {
-  background-color: #EEE;
+  background-color: #82CAFF;
   padding: 0.5em 0.75em;
 }
 
@@ -430,6 +430,22 @@ section#payment_form {
 
 #styleguide {
   margin-left: 12rem;
+  margin-right: 12rem;
+  margin-top: 6rem;
+}
+
+.text_input {
+  border-radius: 1em;
+  padding: 0.4em;
+  border: 0.1em solid darkblue;
+}
+
+.text_input:hover, .text_input:focus {
+  border: 0.2em solid blue;
+}
+
+.color_pal {
+  width: 100%;
 }
 
 /*
