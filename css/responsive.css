@@ -1,3 +1,51 @@
+/*Flex Stuff*/
+.flex-container {
+  display: flex;
+  flex direction: row;
+}
+
+.row {
+  margin: 3rem 15rem;
+}
+
+.block1 {
+  width: 100%;
+}
+
+.block2 {
+  width: 100%;
+}
+
+/*About section on home page flex stuff*/
+#aboutSection {
+  background-color: black;
+  padding: 2rem;
+}
+
+#aboutSection p {
+  color: white
+}
+
+#aboutSection h2 {
+  color: white
+}
+
+.imgPlaceholder {
+  background-color: white;
+  min-height: 25rem;
+  margin: 2rem 2rem 2rem 0;
+}
+
+#aboutSection .block1 {
+  flex: 1 50%;
+}
+
+#aboutSection .block2 {
+  display: flex;
+  align-items: center;
+  flex: 1 50%;
+}
+
 @media only screen and (max-width: 650px) {
   .menu {
     flex-wrap: wrap;

@@ -448,6 +448,18 @@ section#payment_form {
   width: 100%;
 }
 
+.links {
+  text-decoration: none;
+  color: blue;
+}
+
+footer {
+  background-color: lightgrey;
+  text-align: center;
+  margin-top: 10em;
+  padding: 2rem;
+}
+
 /*
   COMBINED ELEMENTS -------------------
 */
