@@ -155,7 +155,7 @@ nav.nav_bar a {
   padding: 15px 0px;
 }
 
-.nav_bar .top_menu {
+.top_menu {
   background-color: rgb(90, 90, 90);
   /* Green */
   border: none;
@@ -168,14 +168,14 @@ nav.nav_bar a {
   margin: 0;
 }
 
-.nav_bar .top_menu:hover {
+.top_menu:hover {
   background-color: grey;
   color: black;
   -webkit-transition: background-color 1.0s ease-out;
   transition: background-color 1.0s ease-out;
 }
 
-.nav_bar .top_menu:focus {
+.top_menu:focus {
   background-color: rgb(40, 40, 40);
   color: white;
   font-weight: bold;
@@ -329,11 +329,13 @@ section code {
 }
 
 .button {
-  color: grey;
-  background-color: white;
+  border-radius: 1em;
+  color: white;
+  background-color: blue;
   padding: 0.5rem 1rem;
   margin-top: 1.0rem;
   margin-bottom: 1.0rem;
+  text-decoration: none;
 }
 
 .button:focus {
@@ -344,8 +346,7 @@ section code {
 }
 
 .button:hover {
-  font-weight: bold;
-  background-color: rgb(180, 180, 180);
+  color: black;
 }
 
 .comp_links {
@@ -372,6 +373,10 @@ section code {
   background-color: rgb(70, 70, 70);
   color: white;
   font-weight: bold;
+}
+
+.imageLink {
+  width: 50%;
 }
 
 section#product_listing {
@@ -421,6 +426,10 @@ div.cart_product_info {
 
 section#payment_form {
   padding-left: 1rem;
+}
+
+#styleguide {
+  margin-left: 12rem;
 }
 
 /*
