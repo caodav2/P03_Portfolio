@@ -20,11 +20,30 @@ body {
   text-align: center;
 }
 
-.greeting {
+.container h1.greeting {
   position: absolute;
-  font-size: 10em;
+  font-size: 4vw;
   font-family: 'Abel';
-  color: black;
+  color: white;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.container p.image-message {
+  position: absolute;
+  font-size: 10vw;
+  font-family: 'Abel';
+  color: white;
+  left: 0;
+  right: 0;
+  top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 h1 {
@@ -97,7 +116,6 @@ nav.main_menu a {
   /* Green */
   border: none;
   color: white;
-  padding: 10px 28px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
