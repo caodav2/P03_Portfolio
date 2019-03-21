@@ -46,6 +46,22 @@ body {
   width: 100%;
 }
 
+p.contact-image-message {
+  position: absolute;
+  font-size: 8vw;
+  font-family: 'Abel';
+  color: white;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+  color: black;
+}
+
 h1 {
   font-family: 'Abel', sans-serif;
 }
