@@ -43,7 +43,6 @@
   border: 1px darkblue inset;
   margin-left: 75px;
   margin-right: 75px;
-  align-self: center;
 }
 
 .project_challenge {
@@ -72,6 +71,13 @@
   .project_overview, .project_process_texts, .project_challenge {
     flex-direction: column;
   }
+}
+
+.project_headers {
+  padding-right: 50px;
+  padding-left: 30px;
+  font-size: 35px;
+  color: darkblue;
 }
 
 /* END OF PROJECT STYLE */
