@@ -32,8 +32,9 @@
 
 .imgPlaceholder {
   background-color: white;
-  min-height: 25rem;
-  margin: 2rem 2rem 2rem 0;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
   border-radius: 300px;
 }
 
@@ -93,12 +94,22 @@
   }
 }
 
-@media only screen and (max-width: 1080px) and (min-width: 651px) {
+@media only screen and (max-width: 669px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 998px) {
   div.product {
     width: 50%;
   }
 
   section#cart {
     width: 325px;
+  }
+
+  .row {
+    margin: 3rem 10rem;
   }
 }
