@@ -54,6 +54,11 @@
   margin: 0 auto;
 }
 
+#cleanTreetmentSection {
+  width: 80%;
+  margin: 0 auto;
+}
+
 #projectSection .project_block {
   display: flex;
   align-items: center;

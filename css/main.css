@@ -482,6 +482,12 @@ footer {
   border: solid black 1px;
 }
 
+.cleantreetment {
+  height: 55%;
+  float: right;
+  display: block;
+}
+
 /*
   COMBINED ELEMENTS -------------------
 */
