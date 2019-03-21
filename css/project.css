@@ -18,7 +18,7 @@
 
 .project_img {
   width: 100%;
-  border: 1px black inset;
+  border: 1px darkblue solid;
 }
 
 .project_process_texts {
@@ -28,6 +28,22 @@
 
 .project_text {
   flex: 1;
+  margin-left: 75px;
+  margin-right: 40px;
+}
+
+.project_text1 {
+  flex: 1;
+  margin-left: 40px;
+  margin-right: 75px;
+}
+
+.process_img {
+  width: 90%;
+  border: 1px black inset;
+  margin-left: 75px;
+  margin-right: 75px;
+  align-self: center;
 }
 
 .project_challenge {
