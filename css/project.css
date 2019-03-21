@@ -1,0 +1,54 @@
+/* PROJECT STYLES */
+.project_overview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project_description {
+  flex: 1;
+}
+
+.project_banner {
+  flex: 1;
+}
+
+.project_img {
+  width: 100%;
+  border: 1px black solid;
+}
+
+.project_process_texts {
+  display: flex;
+  flex-direction: row;
+}
+
+.project_text {
+  flex: 1;
+}
+
+.project_challenge {
+  display: flex;
+  flex-direction: row;
+}
+
+.project_challenges>h1 {
+  text-align: right;
+}
+
+.project_challenge_image {
+  flex: 1;
+}
+
+.project_challenge_text {
+  flex: 1;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 700px) {
+  .project_overview, .project_process_texts, .project_challenge {
+    flex-direction: column;
+  }
+}
+
+/* END OF PROJECT STYLE */
