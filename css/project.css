@@ -29,18 +29,18 @@
 .project_text {
   flex: 1;
   margin-left: 75px;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .project_text1 {
   flex: 1;
-  margin-left: 40px;
+  margin-left: 20px;
   margin-right: 75px;
 }
 
 .process_img {
   width: 90%;
-  border: 1px black inset;
+  border: 1px darkblue inset;
   margin-left: 75px;
   margin-right: 75px;
   align-self: center;
@@ -57,10 +57,14 @@
 
 .project_challenge_image {
   flex: 1;
+  margin-left: 75px;
 }
 
 .project_challenge_text {
   flex: 1;
+  margin-left: 20px;
+  margin-right: 50px;
+  align-items: center;
 }
 
 /* Responsive layout */
