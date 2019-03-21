@@ -482,6 +482,74 @@ footer {
   border: solid black 1px;
 }
 
+.contact_me_img {
+  width: 100%;
+}
+
+/*input text-box styling*/
+.text-box[type=text] {
+  border: 0.1rem solid #666666;
+  border-radius: 1.5rem;
+  padding: 0.8rem 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  outline-width: 0;
+  width: 70%;
+  clear: both;
+  font-size: 1.20em;
+}
+
+/*input text-box styling*/
+.text-box[type=text]:focus {
+  width: 70%;
+  border: 0.1rem solid #f16668;
+  border-radius: 1.5rem;
+  padding: 0.8rem 0.5rem;
+  outline-width: 0;
+}
+
+/* input box for contact us page on focus */
+.contact-text-box[type=text]:focus {
+  border: 0.1rem solid #f16668;
+  border-radius: 1.5rem;
+  padding: 0.8rem 0.5rem;
+  outline-width: 0;
+  width: 100%;
+}
+
+/* input fields for contact us page */
+.contact-text-box[type=text] {
+  border: 0.1rem solid #666666;
+  border-radius: 1.5rem;
+  padding: 0.8rem 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  outline-width: 0;
+  clear: both;
+  font-size: 1em;
+  width: 100%;
+}
+
+/* text area  */
+.contact-textarea {
+  font-size: 1em;
+  border: 0.1rem solid #666666;
+  border-radius: 1.5rem;
+  padding: 0.8rem 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  outline-width: 0;
+  width: 100%;
+  height: 10rem;
+  resize: vertical;
+  clear: both;
+}
+
+/* text area when it is focused, set border to 0.1 rem and change color */
+.contact-textarea:focus {
+  border: 0.1rem solid #f16668;
+}
+
 /*
   COMBINED ELEMENTS -------------------
 */

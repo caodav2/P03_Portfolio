@@ -83,6 +83,20 @@
     width: 100%;
   }
 
+  .contact-text-box[type=text] {
+    width: 90%;
+  }
+
+  /*input text-box styling*/
+  .contact-text-box[type=text]:focus {
+    width: 90%;
+  }
+
+  /*input textarea styling*/
+  .contact-textarea {
+    width: 90%;
+  }
+
   section#cart {
     border: none;
     border-bottom: 1px solid black;
