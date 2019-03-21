@@ -5,7 +5,7 @@
 }
 
 .row {
-  margin: 3rem 11rem;
+  margin: 3rem;
 }
 
 .block1 {
@@ -34,6 +34,7 @@
   background-color: white;
   min-height: 25rem;
   margin: 2rem 2rem 2rem 0;
+  border-radius: 300px;
 }
 
 #aboutSection .block1 {
@@ -44,6 +45,19 @@
   display: flex;
   align-items: center;
   flex: 1 50%;
+}
+
+/*About section on home page flex stuff*/
+#projectSection {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#projectSection .project_block {
+  display: flex;
+  align-items: center;
+  flex: 1 33%;
+  padding: 10px;
 }
 
 @media only screen and (max-width: 650px) {

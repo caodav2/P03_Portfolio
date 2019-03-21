@@ -472,6 +472,16 @@ footer {
   width: 100%;
 }
 
+.about_me_title {
+  font-family: "Overpass"
+}
+
+.project_image {
+  width: 100%;
+  border-radius: 300px;
+  border: solid black 1px;
+}
+
 /*
   COMBINED ELEMENTS -------------------
 */
