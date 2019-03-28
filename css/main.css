@@ -312,6 +312,12 @@ section code {
   margin-left: auto;
   margin-right: auto;
   margin-top: 4em;
+  border-radius: 1em;
+  background: #00000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .text_box {

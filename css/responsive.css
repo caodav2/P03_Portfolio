@@ -20,6 +20,12 @@
 #aboutSection {
   background-color: black;
   padding: 2rem;
+  border-radius: 1em;
+  background: #00000;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #aboutSection p {
