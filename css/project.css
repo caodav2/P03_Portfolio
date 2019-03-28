@@ -10,6 +10,12 @@
 .project_description {
   flex: 1;
   margin-right: 30px;
+  border-radius: 1em;
+  background: #cce5ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .project_banner {
@@ -30,12 +36,26 @@
   flex: 1;
   margin-left: 75px;
   margin-right: 20px;
+  border-radius: 1em;
+  background: #cce5ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
 }
 
 .project_text1 {
   flex: 1;
   margin-left: 20px;
   margin-right: 75px;
+  border-radius: 1em;
+  background: #cce5ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
 }
 
 .process_img {
@@ -62,7 +82,10 @@
 .project_challenge_text {
   border-radius: 1em;
   background: #cce5ff;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   flex: 1;
   margin-left: 20px;
   margin-right: 50px;
@@ -86,9 +109,6 @@
   }
 
   .project_text {
-    border-radius: 1em;
-    background: #cce5ff;
-    padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
   }
