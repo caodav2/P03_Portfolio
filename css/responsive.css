@@ -4,7 +4,7 @@
   flex direction: row;
 }
 
-.row {
+.row, .about {
   margin: 3rem;
 }
 
@@ -134,7 +134,7 @@
     width: 325px;
   }
 
-  .row {
+  .row, .about {
     margin: 3rem 10rem;
   }
 }

@@ -110,24 +110,28 @@ nav li a:hover {
 }
 
 /* Main Menu Nav */
-nav.main_menu {
+nav#main_menu {
+  position: fixed;
+  top: 0;
   display: flex;
+  z-index: 10;
+  transition: top 0.3s;
 }
 
-nav.main_menu ul {
+nav#main_menu ul {
   width: 100%;
 }
 
-nav.main_menu li {
+nav#main_menu li {
   width: 25%;
 }
 
-nav.main_menu a {
+nav#main_menu a {
   width: 100%;
   padding: 15px 0px;
 }
 
-.main_menu .top_menu {
+#main_menu .top_menu {
   background-color: black;
   /* Green */
   border: none;
@@ -139,14 +143,14 @@ nav.main_menu a {
   margin: 0;
 }
 
-.main_menu .top_menu:hover {
+#main_menu .top_menu:hover {
   background-color: grey;
   color: black;
   -webkit-transition: background-color 1.0s ease-out;
   transition: background-color 1.0s ease-out;
 }
 
-.main_menu .top_menu:focus {
+#main_menu .top_menu:focus {
   background-color: rgb(40, 40, 40);
   color: white;
   font-weight: bold;
@@ -305,13 +309,8 @@ section code {
 
 .about {
   font-family: 'Overpass';
-  width: 60%;
   color: white;
   background-color: black;
-  padding: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 4em;
   border-radius: 1em;
   background: #00000;
   padding-top: 10px;
