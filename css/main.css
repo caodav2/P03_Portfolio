@@ -622,6 +622,18 @@ footer a:hover {
   padding-bottom: 0.25rem;
 }
 
+#citations {
+  margin: -3rem 5rem 2rem 5rem;
+  padding-top: 10rem;
+}
+
+/* paragraph for citation */
+#citations p {
+  margin: 0.5rem 0 -1rem 0;
+  padding: 0;
+  line-height: 1rem;
+}
+
 /*
   COMBINED ELEMENTS -------------------
 */
