@@ -474,13 +474,6 @@ section#payment_form {
   color: blue;
 }
 
-footer {
-  background-color: lightgrey;
-  text-align: center;
-  margin-top: 10em;
-  padding: 2rem;
-}
-
 .box_around {
   border: 0.1em solid white;
   padding: 0.5rem;
@@ -569,6 +562,64 @@ footer {
 /* text area when it is focused, set border to 0.1 rem and change color */
 .contact-textarea:focus {
   border: 0.1rem solid #f16668;
+}
+
+.contact_info {
+  margin-left: 50px;
+  padding: 15px;
+  background: #82c6de;
+}
+
+/* FOOTER SECTION */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 10em;
+  padding: 2rem;
+}
+
+footer a {
+  color: #82c6de;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: blue;
+}
+
+/* justify content makes sure that the content takes up the same amount of space within the footer */
+#footer-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* make sure each list only take 33% of the entire screen/footer, making it even and proportionate  */
+#footer-links ul {
+  margin: 0;
+  padding: 0;
+  width: 33%;
+}
+
+#footer-links ul li {
+  height: auto;
+  list-style-type: none;
+  text-align: center;
+}
+
+#copyright {
+  margin-top: 2rem;
+}
+
+/* this is setting the footer, misnamed it, should be footer_title */
+.footer_title {
+  font-weight: bold;
+  font-size: 19px;
+  padding-bottom: 1rem;
+}
+
+.footer_info {
+  padding-bottom: 0.25rem;
 }
 
 /*
