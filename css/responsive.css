@@ -20,6 +20,10 @@
   width: 50%;
 }
 
+.move_over_img {
+  padding-left: 10rem;
+}
+
 /*About section on home page flex stuff*/
 #aboutSection {
   background-color: black;
@@ -42,7 +46,6 @@
 
 .imgPlaceholder {
   background-color: white;
-  width: 200px;
   height: 200px;
   margin: 0 auto;
   border-radius: 300px;

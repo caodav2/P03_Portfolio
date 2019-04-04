@@ -561,7 +561,7 @@ section#payment_form {
 
 /* text area when it is focused, set border to 0.1 rem and change color */
 .contact-textarea:focus {
-  border: 0.1rem solid #f16668;
+  border: 0.1rem solid blue;
 }
 
 .contact_info {
