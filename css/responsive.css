@@ -1,7 +1,7 @@
 /*Flex Stuff*/
 .flex-container {
   display: flex;
-  flex direction: row;
+  flex-direction: row;
 }
 
 .row, .about {
@@ -29,7 +29,7 @@
   background-color: black;
   padding: 2rem;
   border-radius: 1em;
-  background: #00000;
+  background: black;
   padding-top: 10px;
   padding-bottom: 30px;
   padding-left: 20px;
