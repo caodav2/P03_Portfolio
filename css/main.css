@@ -139,7 +139,7 @@ nav#main_menu a {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
   margin: 0;
 }
 
@@ -184,7 +184,7 @@ nav.nav_bar a {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 16em;
   margin: 0;
 }
 
@@ -232,7 +232,7 @@ section code {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   color: white;
-  font-size: 16px;
+  font-size: 1em;
   padding: 20px 35px;
   border: none;
   cursor: pointer;
@@ -293,14 +293,8 @@ section code {
   font-style: normal;
 }
 
-.description {
-  font-size: 14px;
-  font-family: 'Abel'
-}
-
 .top_title {
   font-family: 'Overpass';
-  font-size: 60px;
   color: white;
   background: rgb(30, 30, 33);
   margin: 0;
@@ -312,7 +306,7 @@ section code {
   color: white;
   background-color: black;
   border-radius: 1em;
-  background: #00000;
+  background: black;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -379,7 +373,7 @@ section code {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
   margin: 0;
 }
 
@@ -415,13 +409,6 @@ div.product {
 
 .product_description {
   padding: 0 2rem 2rem 2rem;
-}
-
-.total_amount {
-  font-weight: bold;
-  text-align: right;
-  font-size: 24px;
-  margin: 0.5em;
 }
 
 section#cart {
@@ -519,7 +506,7 @@ section#payment_form {
   border: 0.1rem solid #f16668;
   border-radius: 1.5rem;
   padding: 0.8rem 0.5rem;
-  outline-width: 0;
+  /* outline-width: 0; */
 }
 
 /* input box for contact us page on focus */
@@ -527,7 +514,7 @@ section#payment_form {
   border: 0.1rem solid blue;
   border-radius: 1.5rem;
   padding: 0.8rem 0.5rem;
-  outline-width: 0;
+  /* outline-width: 0; */
   width: 100%;
 }
 
@@ -614,7 +601,7 @@ footer a:hover {
 /* this is setting the footer, misnamed it, should be footer_title */
 .footer_title {
   font-weight: bold;
-  font-size: 19px;
+  font-size: 1.5em;
   padding-bottom: 1rem;
 }
 
@@ -630,7 +617,7 @@ footer a:hover {
 
 #citations p {
   margin: 0.5rem 0 -1rem 0;
-  padding-bottom: : 0;
+  padding-bottom: 0;
   line-height: 1rem;
 }
 
