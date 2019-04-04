@@ -1,4 +1,8 @@
 /* PROJECT STYLES */
+.project_container {
+  margin-top: 5rem;
+}
+
 .project_overview {
   display: flex;
   flex-direction: row;
