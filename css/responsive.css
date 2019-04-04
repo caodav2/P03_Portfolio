@@ -16,6 +16,10 @@
   width: 100%;
 }
 
+.block3, .block4 {
+  width: 50%;
+}
+
 /*About section on home page flex stuff*/
 #aboutSection {
   background-color: black;
@@ -110,12 +114,16 @@
     position: relative;
   }
 
-  .cart_product {
-    width10px;
-  }
-
   .text_box {
     width: 90%;
+  }
+
+  .block3, .block4 {
+    width: 100%;
+  }
+
+  .contact_info {
+    margin: 0;
   }
 }
 
